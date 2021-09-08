@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-size: 18px;
+    margin: 0;
+    font-family: calibri, sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+span {
+    display: inline-block;
+    margin-bottom: 2em;
+    border: 1px solid black;
+    padding: .4em;
+    width: 45%;  
+    border-radius: 3px;  
+}
+
+.social-signup {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logos {
+    display: flex;
+    justify-content: flex-start;
+    gap: 2em;
+}
+
+input {
+    display: block;
+    margin-bottom: 2em;
+    width: 100%;
+    border: solid 1px black;
+    padding: 1em;
+    border-radius: 3px;
+}
+
+.container {
+    display: flex;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.sub-container {
+    width: 50%;
+    padding: 3em;
+} 
+
+[type='checkbox'] {
+    margin-left: 0;
+    width: 5%;
+    margin-left: 0;
+}
+
+.justify {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.inline {
+    display: inline;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    justify-content: center;
+    font-weight: bold;
+}
+
+[type='button'] {
+    background-color: rgb(20, 109, 145);
+    font-weight: bold;
+    border: none;
+    color: white;
+}
