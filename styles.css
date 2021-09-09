@@ -45,19 +45,21 @@ input {
 
 .container {
     display: flex;
-    max-width: 90%;
+    /* max-width: 100%; */
     margin: 0 auto;
 }
 
 .sub-container {
     width: 50%;
-    padding: 3em;
+    padding: 2em;
 } 
 
 [type='checkbox'] {
     margin-left: 0;
     width: 5%;
     margin-left: 0;
+    display: inline;
+    margin-bottom: 1em;
 }
 
 .justify {
@@ -82,4 +84,13 @@ input {
     font-weight: bold;
     border: none;
     color: white;
+}
+
+::placeholder {
+    color: black;
+    opacity: 1;
+}
+
+.label {
+    display: inline;
 }
